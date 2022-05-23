@@ -144,24 +144,24 @@ body {
 
 /*---------------------------------------------------------*/
 
-@media (max-width: 700px) {
+@media (max-width: 375px) {
     #menu-header img {
-        width: 70px;
-        height: 70px;
+        width: 60px;
+        height: 60px;
         position: relative;
-        top: 1.5vh;
+        top: 1vh;
     }
 
     #menu a {
         display: block;
         position: relative;
-        top: 32px;
+        top: 20px;
     }
 
     #menu li a {
         font-size: 15px;
         padding: 5px;
-        margin: 5px;
+        margin: 4px;
         padding: 5px 5px;
     }
 
@@ -181,7 +181,7 @@ body {
         padding: 0 10vw;
         display: flex;
         position: relative;
-        left: 10vw;
+        left: 7vw;
         overflow-x: auto;
         scroll-behavior: smooth;
     }
@@ -216,7 +216,7 @@ body {
         text-align: center;
         bottom: 10px;
         transform: translateX(-50%);
-        left: 40vw;
+        left: 43vw;
         padding: 10px;
         width: 150px;
         text-transform: capitalize;
